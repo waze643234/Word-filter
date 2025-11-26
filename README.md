@@ -5,13 +5,13 @@ words = []
 for i in range(5):
     word = input("Введіть слово: ")
 
-    if len(word) == 0:
+if len(word) == 0:
         continue  # якщо ввели порожній рядок — пропускаємо
 
-    if word[0].islower():  # перевіряємо перший символ
+if word[0].islower():  # перевіряємо перший символ
         continue
 
-    words.append(word)
+words.append(word)
 
 print("Слова з великої літери:")
 for w in words:
