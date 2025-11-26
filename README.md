@@ -6,9 +6,9 @@ for i in range(5):
     word = input("Введіть слово: ")
 
 if len(word) == 0:
-        continue  # якщо ввели порожній рядок — пропускаємо
+        continue  
 
-if word[0].islower():  # перевіряємо перший символ
+if word[0].islower():  
         continue
 
 words.append(word)
